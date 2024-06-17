@@ -133,7 +133,41 @@ button {
 .quote .caption {
   text-align:right;
   font-weight: bold;
-  margin-top: 3vh;
+  margin-top: 1vh;
+}
+
+/* Call to action section */
+
+.call {
+  padding: 5vh 10vw;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  color:#F9FAF8;
+  padding: 48px;
+  border-radius: 12px;
+  gap: 12px;
+  min-width: 80vw;
+}
+
+.banner button {
+  border: 1px solid #F9FAF8;
+}
+
+.banner b {
+  font-size: 24px;
+}
+
+/* Footer section */
+
+.footer {
+  background-color:#1F2937;
+  color: #F9FAF8;
+  width: 100%;
+  text-align: center;
+  padding: 36px;
 }
 
 /* Fonts */
